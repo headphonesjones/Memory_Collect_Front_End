@@ -1,0 +1,40 @@
+// Make sure the charset is set appropriately
+@charset "UTF-8";
+// Custom Functions
+@import url(http://fonts.googleapis.com/css?family=Comfortaa:400,700);
+
+// Global Foundation Settings
+@import "foundation/_settings";
+
+// You can import only specific elements by adjusting the import below
+@import "foundation";
+@import "variables";
+@import "nav";
+@import "footer";
+@import "createpage";
+
+
+
+body{
+	font-family: 'Comfortaa', cursive;
+}
+p{
+	font-size: .8em;
+	line-height: 1.2em;
+}
+
+
+.primary-header{
+	color: $primary;
+	text-transform: uppercase;
+	font-family: 'Comfortaa', cursive;
+	font-size: 1.6em;
+}
+
+.secondary-header{
+	color: $secondary;
+	text-transform: uppercase;
+	font-family: 'Comfortaa', cursive;
+	font-size: 1.6em;
+}
+

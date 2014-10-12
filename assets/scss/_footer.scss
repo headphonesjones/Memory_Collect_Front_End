@@ -1,0 +1,42 @@
+footer{
+	margin-top: 50px;
+
+	ul{
+		float: right;
+
+		li > a{
+			color: $gray;
+			padding: 10px;
+			font-size: .8em;
+			-webkit-transition: all .5s; /* For Safari 3.1 to 6.0 */
+    		transition: all .5s;
+    		font-family: 'Comfortaa', cursive;
+
+    		&:hover{
+    			color: $secondary;
+    		}
+		}
+	}
+
+	.footer-nav > li:nth-child(8) {
+		padding-right: 20px;
+	}
+}
+
+.footer-container{
+	border-top: 1px solid $gray;
+}
+
+.footer-social-icons{
+	font-size: 1.2em;
+	color: $gray;
+	-webkit-transition: all .5s; /* For Safari 3.1 to 6.0 */
+    		transition: all .5s;
+    padding: 10px;
+    position: relative;
+    top: 5px;
+
+    &:hover{
+    	color: $secondary;
+    }
+}

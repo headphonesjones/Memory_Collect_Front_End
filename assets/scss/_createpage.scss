@@ -1,0 +1,72 @@
+#create-page-headline{
+	margin-top: 25px;
+	text-align: center;
+}
+
+.create-page-step{
+	border: 2px solid $white;
+	padding: 20px;
+}
+
+.complete-page-creation-container{
+	margin-top: 25px;
+	border-top: 1px solid $gray;
+
+	h3{
+		padding: 20px;
+	}
+	.page-creation-list{
+		padding-left: 40px;
+	}
+}
+
+.page-creation-right-info-container{
+	border-left: 1px solid $gray;
+	border-right: 1px solid $gray;
+}
+
+#CTA-pretext{
+	border: 1px solid $gray;
+	padding-top: 8px;
+	padding-bottom: 10px;
+	height: 30px;
+	position: relative;
+	left:15px;
+	font-size: .9em;
+
+	p{
+		color: $gray;
+	}
+}
+
+.create-page-step-text{
+	color: $gray;
+	text-align: center;
+	font-family: 'Comfortaa', cursive;
+	font-size: 1.2em;
+
+}
+
+.create-page-button{
+	background-color: $secondary;
+	height: 30px;
+	font-size: .75em;
+	padding-top: 8px;
+
+	&:hover{
+		background-color: $primary;
+	}
+}
+
+#launch-text{
+	padding-top: 20px;
+}
+
+.create-page-step-arrows{
+	position: relative;
+	left: 110%;
+	bottom: 50%;
+	font-size: 1.5em;
+	color: $primary;
+	z-index: 10;
+}
