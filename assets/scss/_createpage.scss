@@ -60,13 +60,14 @@
 }
 
 #launch-text{
+	color: $white;
 	padding-top: 20px;
 }
 
 .create-page-step-arrows{
 	position: relative;
 	left: 110%;
-	bottom: 120px;
+	bottom: 150px;
 	font-size: 1.5em;
 	color: $primary;
 	z-index: 10;
@@ -85,4 +86,11 @@
 		cursor: pointer;
 	}
 
+}
+
+#launch-image{
+	margin-top: 5px;
+}
+#launch-site-step{
+	background-color: $secondary;
 }
