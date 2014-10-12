@@ -541,7 +541,7 @@ footer {
 .create-page-step-arrows {
   position: relative;
   left: 110%;
-  bottom: 50%;
+  bottom: 120px;
   font-size: 1.5em;
   color: #772954;
   z-index: 10; }
