@@ -1,6 +1,7 @@
 #create-page-headline{
-	margin-top: 25px;
+	margin-top: 45px;
 	text-align: center;
+	margin-bottom: 20px;
 }
 
 .create-page-step{
@@ -69,4 +70,19 @@
 	font-size: 1.5em;
 	color: $primary;
 	z-index: 10;
+}
+
+.down-arrow-scroll{
+	color: $primary;
+	text-align: center;
+	font-size: 4em;
+
+	position: absolute;
+	bottom: -15px;
+
+	&:hover{
+		color: $secondary;
+		cursor: pointer;
+	}
+
 }

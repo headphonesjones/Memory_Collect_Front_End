@@ -386,6 +386,9 @@ th.hide-for-touch {
 header {
   background-color: #772954; }
 
+.logo {
+  margin-top: 20px; }
+
 .nav {
   float: right;
   list-style-type: none;
@@ -440,23 +443,32 @@ header {
 .search-icon-box {
   width: 30px;
   height: 30px;
-  background-color: #dd4a26;
+  background-color: #3e152c;
   float: right;
-  margin-top: 30px; }
+  margin-top: 30px;
+  -webkit-transition: all .5s;
+  /* For Safari 3.1 to 6.0 */
+  transition: all .5s;
+  border-top: 1px solid #FFFFFF;
+  border-right: 1px solid #FFFFFF;
+  border-bottom: 1px solid #FFFFFF; }
   .search-icon-box:hover {
-    cursor: pointer; }
-    .search-icon-box:hover .search-icon {
-      color: #FFFFFF; }
+    cursor: pointer;
+    background-color: #dd4a26; }
 
 #search-bar {
   float: right;
-  width: 300px;
+  width: 250px;
   height: 30px;
-  margin-top: 30px; }
+  margin-top: 30px;
+  background-color: #772954;
+  border: 1px solid #FFFFFF;
+  border-right: 0;
+  color: #FFFFFF; }
 
 .search-icon {
-  color: #772954;
-  padding: 7px; }
+  color: #FFFFFF;
+  padding: 6px; }
 
 footer {
   margin-top: 50px; }
@@ -491,8 +503,9 @@ footer {
     color: #dd4a26; }
 
 #create-page-headline {
-  margin-top: 25px;
-  text-align: center; }
+  margin-top: 45px;
+  text-align: center;
+  margin-bottom: 20px; }
 
 .create-page-step {
   border: 2px solid #FFFFFF;
@@ -545,6 +558,16 @@ footer {
   font-size: 1.5em;
   color: #772954;
   z-index: 10; }
+
+.down-arrow-scroll {
+  color: #772954;
+  text-align: center;
+  font-size: 4em;
+  position: absolute;
+  bottom: -15px; }
+  .down-arrow-scroll:hover {
+    color: #dd4a26;
+    cursor: pointer; }
 
 body {
   font-family: 'Comfortaa', cursive; }

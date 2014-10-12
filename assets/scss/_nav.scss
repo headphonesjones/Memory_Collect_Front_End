@@ -1,7 +1,9 @@
 header{
 	background-color: $primary;
 }
-
+.logo{
+	margin-top: 20px;
+}
 .nav{ 
 	float: right;
 	list-style-type: none;
@@ -67,29 +69,34 @@ header{
 .search-icon-box{
 	width: 30px;
 	height: 30px;
-	background-color: $secondary;
+	background-color: darken($primary, 	15%);
 	float: right;
 	margin-top: 30px;
-
+	-webkit-transition: all .5s; /* For Safari 3.1 to 6.0 */
+    transition: all .5s;
+	border-top: 1px solid $white;
+	border-right: 1px solid $white;
+	border-bottom: 1px solid $white;
 	&:hover{
 		cursor: pointer;
-
-		.search-icon{
-			color: $white;
-		}
+		background-color: $secondary;
 	}
 }	
 
 #search-bar{
 	float: right;
-	width: 300px;
+	width: 250px;
 	height: 30px;
 	margin-top: 30px;
+	background-color: $primary;
+	border: 1px solid $white;
+	border-right: 0;
+	color: $white;
 }
 
 .search-icon{
-	color: $primary;
-	padding: 7px;
+	color: $white;
+	padding: 6px;
 
 
 }
