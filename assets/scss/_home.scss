@@ -1,0 +1,27 @@
+#title-holder{
+	margin-top: 45px;
+	h2, h3{
+		padding: 0px 15px;		
+		text-transform: uppercase;
+		height:28px;
+		line-height: 28px;
+	}
+	h2{
+		font-size: 16px;
+		background-color: $primary;	
+		color: $secondary;
+		em{
+			color: $white;
+			font-style: normal;
+		}
+	}
+	h3{
+		margin-left: 1px;
+		font-size: 14px;
+		background-color: $gray;	
+		color: $white;
+		height:28px;
+		margin-right: -1px;
+	}
+}
+
