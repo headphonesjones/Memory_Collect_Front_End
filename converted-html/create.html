@@ -1,4 +1,49 @@
-{% block content %} 
+﻿<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Title block allowing child pages to override -->
+        <title>Memory Collect</title>
+        <link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" />
+
+
+        <!-- Styles -->
+        <link href="assets/css/foundation.min.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" media="all" />
+        <script src="assets/js/vendor/modernizr.min.js"></script>
+       
+        <!-- Style block allowing child pages to inject their own styles -->
+       <!--   -->
+    </head>
+    <body>
+        <div id="wrapper">
+            <!-- Include -->
+            <header>
+	<div class="row">
+		<div class="medium-2 columns logo">
+			<a href="index.html"><img src="assets/img/logo.svg" alt="Memory Collect Logo" width="140px" height="140px" /></a>
+		</div>
+		<div class="medium-10 columns search-bar-container">
+			<div class="search-icon-box">
+				<i class="fa fa-search search-icon"></i>
+			</div>
+			<input type="text" name="search" id="search-bar" placeholder="Search">
+		</div>
+		<div class="medium-10 columns nav-container">
+			<ul class="nav"> 
+				<li class="nav-link"><a href="#">About</a></li> 
+				<li class="nav-link"><a href="howitworks.html">How it Works</a></li> 
+				<li class="nav-link"><a href="create.html">Create Site</a></li> 
+				<li class="nav-link"><a href="#">Contact</a></li> 
+				<li class="nav-link"><a href="#">Login/Sign Up</a></li> 
+			</ul>
+		</div>
+	</div>
+</header>
+            <!-- Content block, child page inject content -->
+             
 <div class="row create-page-content">
 	<div class="medium-12 columns">
 		<h2 class="secondary-header" id="create-page-headline">THE PROCESS OF Creating a dedicated Memory Collect site is easy </h2>
@@ -61,7 +106,6 @@
 	</div>
 	<div class="medium-8 columns page-creation-right-info-container" data-equalizer-watch>
 		<h3 class="primary-header">You’re only a few clicks away from celebrating your loved ones for decades to come.</h3>
-
 		<div class="medium-8 columns" id="CTA-pretext">
 			<p class="orange-title">READY TO START YOUR COLLECTION? CLICK HERE TO BEGIN <span class="purple-title">>>></span></p>
 		</div>
@@ -70,7 +114,37 @@
 		</div>
 	</div>
 </div>
-
 </div>
 
-{% endblock %}
+
+            <footer>
+	<div class="row footer-container">
+		<ul class="inline-list footer-nav"> 
+			<li><a href="#">About</a></li> 
+			<li><a href="howitworks.html">How It Works</a></li> 
+			<li><a href="create.html">Create a Site</a></li> 
+			<li><a href="#">Contact</a></li> 
+			<li><a href="#">Feedback</a></li> 
+			<li><a href="#">Copywright</a></li>
+			<li><a href="#">Privacy Policy</a></li>  
+			<li><a href="#">FAQ</a></li> 
+			<a href="#" class="footer-social-icons"><i class="fa fa-facebook-square"></i></a>
+			<a href="#" class="footer-social-icons"><i class="fa fa-twitter-square"></i></a>
+			<a href="#" class="footer-social-icons"><i class="fa fa-linkedin-square"></i></a>
+			<a href="#" class="footer-social-icons"><i class="fa fa-pinterest-square"></i></a>
+
+		</dl>
+	</div>
+</footer>
+        </div>
+        <!-- Script block allowing child pages to inject their own scripts -->
+      <!--    -->
+        <script src="assets/js/vendor/jquery.min.js"></script>
+        <script src="assets/js/foundation.min.js"></script>
+        <script src="app.js"></script>
+        <script src="assets/js/foundation/foundation.equalizer.min.js"></script>
+          <script>
+            $(document).foundation();
+          </script>
+    </body>
+</html>

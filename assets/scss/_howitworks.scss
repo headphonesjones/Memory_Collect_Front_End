@@ -1,0 +1,79 @@
+.howitworks-steps-title-container{
+	background-color: $gray;
+	width: 100%;
+	margin-bottom: 20px;
+	h6{
+		padding: 10px;
+		font-size: .75em;
+	}
+}
+
+.howitworks-step-container{
+	border-left: 1px solid $gray;
+	height: 170px;
+
+	p{
+		font-size: .75em;
+	}
+}
+#CTA-pretext-howitworks{
+	border: 1px solid $gray;
+	padding-top: 6px;
+	padding-bottom: 10px;
+	height: 30px;
+	font-size: .9em;
+}
+
+#create-page-button-howitworks{
+	position: relative;
+	left: -15px;
+	font-family: 'Comfortaa', cursive;
+}
+
+.pricing-table-container{
+	background-color: lighten($gray, 20%);
+	margin-top: 50px;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+.pricing-table{
+	li{
+		font-family: 'Comfortaa', cursive !important;
+	}
+	.title{
+		background-color: $white;
+		color: $primary;
+		font-weight: 700;
+		font-size: 1.2em;
+
+	}
+	.price{
+		background-color: $white;
+		color: $primary;
+	}
+}
+#plus-title{
+	font-size: 1.5em;
+	color: $secondary;
+}
+
+#middle-button-pricing{
+	background-color: $secondary;
+
+	&:hover{
+		background-color: darken($secondary, 10%);
+	}
+}
+
+.jena-quote{
+
+	blockquote{
+		font-size: .8em;
+	}
+}
+
+.partner-participation-container{
+	background-color: $primary;
+	padding: 20px;
+	height: 140px;
+}

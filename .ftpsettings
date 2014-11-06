@@ -1,0 +1,8 @@
+    {
+    "host": "ftp.jordanjohnson.me",
+    "port": 21,
+    "username": "admin@jordanjohnson.me",
+    "password": "baseballslife108",
+    "path": "/memory_collect",
+    "secure": true
+    }

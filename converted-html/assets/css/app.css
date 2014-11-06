@@ -675,49 +675,6 @@ footer {
   padding: 20px;
   height: 140px; }
 
-#about-page-headline {
-  margin-top: 50px; }
-
-#about-page-second-headline {
-  margin-top: 50px; }
-
-.about-history-container {
-  background-color: #afa89f;
-  margin-top: 100px;
-  padding-bottom: 50px;
-  padding-top: 20px; }
-
-#shelly-img {
-  position: relative;
-  top: -39px; }
-
-#about-history-aside {
-  padding-top: 55px;
-  font-size: .7em; }
-
-.about-team-container {
-  background-color: #772954;
-  margin-bottom: 100px;
-  padding-bottom: 50px;
-  padding-top: 20px; }
-
-.about-team-nav {
-  background-color: #dd4a26;
-  margin-left: 20px;
-  position: relative;
-  top: 4px;
-  width: 48%; }
-  .about-team-nav ul li {
-    color: #FFFFFF;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 11px; }
-    .about-team-nav ul li a {
-      color: #FFFFFF; }
-
-#jena-description {
-  padding-left: 20px; }
-
 body, h1, h2, h3, h4, h5, h6, a, cite, blockquote {
   font-family: 'Comfortaa', cursive; }
 

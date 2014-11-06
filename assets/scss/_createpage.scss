@@ -28,16 +28,12 @@
 
 #CTA-pretext{
 	border: 1px solid $gray;
-	padding-top: 8px;
+	padding-top: 6px;
 	padding-bottom: 10px;
 	height: 30px;
 	position: relative;
 	left:15px;
 	font-size: .9em;
-
-	p{
-		color: $gray;
-	}
 }
 
 .create-page-step-text{
@@ -53,6 +49,7 @@
 	height: 30px;
 	font-size: .75em;
 	padding-top: 8px;
+	font-family: 'Comfortaa', cursive;
 
 	&:hover{
 		background-color: $primary;

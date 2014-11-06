@@ -1,0 +1,55 @@
+#about-page-headline{
+	margin-top: 50px;
+}
+#about-page-second-headline{
+	margin-top: 50px;
+}
+
+.about-history-container{
+	background-color: $gray;
+	margin-top: 100px;
+	padding-bottom: 50px;
+	padding-top: 20px;
+}
+
+#shelly-img{
+	position: relative;
+	top: -39px;
+}
+#about-history-aside{
+	padding-top: 55px;
+	font-size: .7em;
+} 
+
+.about-team-container{
+	background-color: $primary;
+	margin-bottom: 100px;
+	padding-bottom: 50px;
+	padding-top: 20px;
+}
+
+.about-team-nav{
+	background-color: $secondary;
+	margin-left: 20px;
+	position: relative;
+	top: 4px;
+	width: 48%;
+
+	ul{
+
+		li{
+			color: $white;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			padding-left: 11px;
+
+			a{
+				color: $white;
+			}
+		}
+	}
+}
+
+#jena-description{
+	padding-left: 20px;
+}
