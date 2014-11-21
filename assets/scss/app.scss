@@ -15,6 +15,7 @@
 @import "home";
 @import "howitworks";
 @import "about";
+@import "contact";
 
 body, h1, h2, h3 ,h4, h5, h6, a, cite, blockquote{
 	font-family: 'Comfortaa', cursive;
@@ -63,5 +64,6 @@ h1,
 	color: $white;
 }
 
-
-
+.center{
+	text-align: center;
+}

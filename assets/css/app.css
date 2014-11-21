@@ -551,8 +551,10 @@ footer {
 .create-page-button {
   background-color: #dd4a26;
   height: 30px;
+  padding-top: 0;
+  padding-bottom: 0;
+  line-height: 30px;
   font-size: .75em;
-  padding-top: 8px;
   font-family: 'Comfortaa', cursive; }
   .create-page-button:hover {
     background-color: #772954; }
@@ -718,6 +720,23 @@ footer {
 #jena-description {
   padding-left: 20px; }
 
+.contact-form {
+  margin-top: 30px; }
+
+.contact-textarea {
+  min-height: 100px; }
+
+.contact-button {
+  background-color: #dd4a26;
+  height: 40px;
+  line-height: 40px;
+  font-size: 1.3em;
+  padding-top: 0;
+  padding-bottom: 0;
+  font-family: 'Comfortaa', cursive; }
+  .contact-button:hover {
+    background-color: #772954; }
+
 body, h1, h2, h3, h4, h5, h6, a, cite, blockquote {
   font-family: 'Comfortaa', cursive; }
 
@@ -757,3 +776,6 @@ h1,
 
 .white-title {
   color: #FFFFFF; }
+
+.center {
+  text-align: center; }

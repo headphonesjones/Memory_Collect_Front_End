@@ -1,0 +1,40 @@
+{% block content %} 
+<div class="row">
+	<div class="medium-12 columns">
+		<h2 class="secondary-header" id="create-page-headline">Need Help? Have a suggestion? Let us know</h2>
+	</div>
+</div>
+<form class="contact-form">
+<div class="row">
+	<div class="medium-4 columns">
+		<input name="name" type="text" placeholder="Name" />
+	</div>
+	<div class="medium-4 columns">
+		<input name="email" type="email" placeholder="Email" />
+	</div>
+	<div class="medium-4 columns">
+		<input name="name" type="text" placeholder="Phone (optional)" />
+	</div>
+</div>
+<div class="row">
+	<div class="medium-12 columns">
+		<textarea class="contact-textarea" placeholder="What can we do for you?"></textarea>
+	</div>
+</div>
+<div class="row center">
+<button class="button contact-button">Submit</button>
+</div>
+</form>
+
+
+</div>
+{% endblock %}
+
+{% block scripts %}
+    {{ "jquery.autosize.js" | asset_url | script_tag }}
+    <script>
+	$(document).ready(function(){
+	    $('textarea').autosize();    
+	});
+	</script>
+{% endblock %}

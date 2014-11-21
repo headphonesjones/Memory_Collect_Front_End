@@ -47,8 +47,10 @@
 .create-page-button{
 	background-color: $secondary;
 	height: 30px;
+	padding-top: 0;
+	padding-bottom: 0;
+	line-height: 30px;
 	font-size: .75em;
-	padding-top: 8px;
 	font-family: 'Comfortaa', cursive;
 
 	&:hover{
